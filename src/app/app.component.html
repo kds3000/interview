@@ -1,0 +1,34 @@
+<div>
+  <input type="text" placeholder="Enter symbol here" />
+  <button>Subscribe</button>
+  <div class="table">
+    <div>
+      <app-header></app-header>
+    </div>
+    <div style="display: flex; flex-direction: column">
+      <app-row></app-row>
+      <app-row></app-row>
+    </div>
+  </div>
+</div>
+
+<h2>Instructions</h2>
+<ol>
+  <li>
+    Take a look at the <strong>Feed</strong> service. Use its methods to
+    subscribe to some stocks.
+  </li>
+  <li>
+    Make the <strong>Subscribe</strong> button work, i.e. subscribe to the stock
+    entered in the input.
+  </li>
+  <li>Display the updates provided by the server in the table.</li>
+  <li>
+    Highlight stocks that have changed, green for an increase, red for a
+    decrease (change the colour of the row text).
+  </li>
+  <li>
+    Make the <strong>Unsubscribe</strong> button work, i.e. unsubscribe to
+    updates for the stock and remove the row.
+  </li>
+</ol>

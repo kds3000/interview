@@ -1,0 +1,32 @@
+table {
+  margin-top: 15px;
+  width: 100%;
+  display: table;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+thead th {
+  background: #205888;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: normal;
+  color: white;
+}
+
+tbody td {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 5rem;
+}
+
+h2,
+li {
+  color: #555;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
